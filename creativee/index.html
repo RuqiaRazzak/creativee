@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dropdown Navbar</title>
+    <link rel="stylesheet" href="./style.css/style.css">
+</head>
+<body>
+
+<nav>
+   <div class="logo"> <img src="./images/Exclude.png" alt=""></div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+       <li class="dropdown">
+            <a href="#">For New Students <img src="./images/right-arrow 1.png" alt="" srcset=""></a>
+            <ul class="dropdown-content">
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Web Designing</a></li>
+                <li><a href="#">Python</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+        <li> <button class="profile-user"><a href="#">Profile <img src="./images/profile-user 1.png" alt=""> </button></a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+     <div id="slides">
+        <div id="overflow">
+            <div class="inner">
+                 <div class="slide slide_1" >
+                    <div class="hero-text">
+                <h1>Learn Websit
+Development</h1>
+                        <p > Lorem ipsum dolor sit amet, consectetur 
+ adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="cta-buttons">
+                            <a href="#" class="btn-primary">Join Now</a>
+                            <a href="#" class="btn-secondary">Watch Demo...</a>
+                        </div>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Find Course...">
+                            <button>Search</button>
+                        </div>
+                     </div>
+                         <div class="hero-image">
+                          <img src="./images/Untitled design(106) 1.png" alt="Illustration">
+                         </div>
+                      </div>
+     
+                </div>
+                <div class="a">
+                <div class="slide slide_2">
+                    <div class="hero-text">
+                          <h1>Learn Website
+ Development</h1>
+                        <p > Lorem ipsum dolor sit amet, consectetur 
+adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="cta-buttons">
+                            <a href="#" class="btn-primary">Join Now</a>
+                            <a href="#" class="btn-secondary">Watch Demo...</a>
+                        </div>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Find Course...">
+                            <button>Search</button>
+                        </div>
+                     </div>
+                         <div class="hero-image">
+                          <img src="./images/Untitled design(106) 1.png" alt="Illustration">
+                         </div>
+                      </div>
+     
+                </div>
+            </div>
+            
+            </div>
+        </div>
+
+       <div id="controls">
+         <label for="slide1"></label>
+         <label for="slide2"></label>
+         <label for="slide3"></label>
+       </div>
+       <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+           <label for="slide3"></label>
+       </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <div class="footer-text">
+        <p>Creative.com©rights</p>
+    </div>
+    <div class="social-icons">
+        <a href="#">FB</a>
+        <a href="#">TW</a>
+        <a href="#">LI</a>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
